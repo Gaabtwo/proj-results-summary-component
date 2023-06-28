@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+main {
+    padding: 25px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.content {
+    box-shadow: 10px 20px 30px hsl(221, 100%, 96%);
+}
+
+p {
+    text-align: center;
+}
+
+.of100 {
+    font-size: 15px;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+}
+
+.circulo {
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultado {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 300px;
+    height: 400px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.sumario {
+    width: 300px;
+    height: 400px;
+    padding: 25px;
+}
+
+h4 {
+    font-size: 17px;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.descricao {
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+}
+
+.suma {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.icon-reacao,
+.icon-memoria,
+.icon-verbal,
+.icon-visual {
+    width: 17px;
+}
+
+#reacao {
+    background-color: hsla(0, 100%, 67%, 0.093);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.reac {
+    color: hsl(0, 100%, 67%);
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#memoria {
+    background-color: hsla(39, 100%, 56%, 0.093);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.memo {
+    color: hsl(39, 100%, 56%);
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#verbal {
+    background-color: hsla(166, 100%, 37%, 0.081);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.verb {
+    color: hsl(166, 100%, 37%);
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#visual {
+    background-color: hsla(234, 85%, 45%, 0.073);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.visu {
+    color: hsl(234, 85%, 45%);
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+aside {
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+}
+
+span {
+    color: hsl(224, 30%, 27%);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.botao {
+    background: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: #ffff;
+    font-weight: 700;
+    width: 90%;
+    height: 39px;
+    margin-left: 14px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.botao:hover {
+    background: hsl(224, 30%, 27%);
+    transform: scale(1.03);
+    cursor: pointer;
+    
+}
+
+.rodape {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.rodape a {
+    color: hsl(228, 45%, 44%);
+}
